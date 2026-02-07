@@ -1,0 +1,10 @@
+{
+  "requestId": "REQ-3001",
+  "screeningResult": "POSSIBLE_MATCH",
+  "bestMatch": {
+    "id": "W1",
+    "name": "Alex John Smith",
+    "score": 0.87
+  },
+  "timestamp": "2026-02-07T06:23:16.836Z"
+}

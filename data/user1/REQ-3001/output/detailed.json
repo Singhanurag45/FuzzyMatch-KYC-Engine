@@ -1,0 +1,32 @@
+{
+  "rawName": "Alex Jon Smyth",
+  "normalizedName": "alex jon smyth",
+  "allNamesScreened": [
+    {
+      "raw": "Alex Jon Smyth",
+      "normalized": "alex jon smyth"
+    }
+  ],
+  "bestMatch": {
+    "id": "W1",
+    "name": "Alex John Smith",
+    "score": 0.87,
+    "matchType": "POSSIBLE_MATCH"
+  },
+  "top3Matches": [
+    {
+      "id": "W1",
+      "name": "Alex John Smith",
+      "score": 0.87,
+      "matchedInputName": "Alex Jon Smyth",
+      "matchType": "POSSIBLE_MATCH"
+    },
+    {
+      "id": "W2",
+      "name": "Maria Garcia",
+      "score": 0.07,
+      "matchedInputName": "Alex Jon Smyth",
+      "matchType": "NO_MATCH"
+    }
+  ]
+}

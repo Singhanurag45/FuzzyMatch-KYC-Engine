@@ -16,13 +16,6 @@ npm start
 
 Server listens on `http://localhost:3000` (or `PORT` env var).
 
-**If you see `EADDRINUSE: address already in use :::3000`:** another process is using port 3000 (e.g. an old server). On Windows, free it with:
-```powershell
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
-```
-Replace `<PID>` with the number from the last column. Or start on a different port: `$env:PORT=3001; npm start`
-
 ## API
 
 - **POST** `/process/:userId/:requestId`  

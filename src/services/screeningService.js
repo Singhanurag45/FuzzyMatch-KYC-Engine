@@ -11,8 +11,13 @@ const MATCH_TYPES = {
 const PROJECT_ROOT = path.resolve(__dirname, '../..');
 
 function getMatchType(score) {
-  if (score >= 0.90) return MATCH_TYPES.EXACT_MATCH;
-  if (score >= 0.75) return MATCH_TYPES.POSSIBLE_MATCH;
+  if (score >= 0.90){
+    return MATCH_TYPES.EXACT_MATCH;
+  } 
+  if (score >= 0.75){
+    return MATCH_TYPES.POSSIBLE_MATCH;
+  }
+
   return MATCH_TYPES.NO_MATCH;
 }
 
@@ -211,9 +216,11 @@ async function processRequest(userId, requestId, logPrefix = requestId, bodyInpu
       JSON.stringify(consolidated, null, 2),
       'utf8'
     );
-
+   
     log('Screening complete', { outputDir });
-    return { outputDir };
+    console.log(consolidated);
+    return { outputDir , consolidated};
+    
   } catch (e) {
     log('Unexpected error', { error: e.message, stack: e.stack });
     return { error: e.message || 'Processing failed' };

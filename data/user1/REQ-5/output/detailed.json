@@ -1,0 +1,47 @@
+{
+  "rawName": "Stranger Person",
+  "normalizedName": "stranger person",
+  "allNamesScreened": [
+    {
+      "raw": "Stranger Person",
+      "normalized": "stranger person"
+    },
+    {
+      "raw": "Virat Kohli",
+      "normalized": "virat kohli"
+    },
+    {
+      "raw": "V. Kohli",
+      "normalized": "v kohli"
+    }
+  ],
+  "bestMatch": {
+    "id": "W82",
+    "name": "Virat Kohli",
+    "score": 1,
+    "matchType": "EXACT_MATCH"
+  },
+  "top3Matches": [
+    {
+      "id": "W82",
+      "name": "Virat Kohli",
+      "score": 1,
+      "matchedInputName": "Virat Kohli",
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "id": "W451",
+      "name": "Virat Kohli",
+      "score": 1,
+      "matchedInputName": "Virat Kohli",
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "id": "W265",
+      "name": "Mehak Kohli",
+      "score": 0.64,
+      "matchedInputName": "Virat Kohli",
+      "matchType": "NO_MATCH"
+    }
+  ]
+}

@@ -7,6 +7,11 @@ app.use(express.json());
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
+
+app.get('/', (req, res) => {
+  res.send('Backend is working fine.');
+})
+
 app.post('/process/:userId/:requestId', async (req, res) => {
   const { userId, requestId } = req.params;
   const logPrefix = req.body?.requestId || requestId;
@@ -27,6 +32,7 @@ app.post('/process/:userId/:requestId', async (req, res) => {
     return res.status(200).json({
       success: true,
       outputPath: result.outputDir,
+      output: result.consolidated,
     });
   } catch (err) {
     console.error(

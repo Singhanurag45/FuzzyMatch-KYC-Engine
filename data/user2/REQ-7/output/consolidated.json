@@ -1,0 +1,10 @@
+{
+  "requestId": "REQ-7",
+  "screeningResult": "EXACT_MATCH",
+  "bestMatch": {
+    "id": "W83",
+    "name": "Rohit Sharma",
+    "score": 1
+  },
+  "timestamp": "2026-02-27T09:03:43.107Z"
+}

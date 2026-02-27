@@ -1,0 +1,10 @@
+{
+  "requestId": "REQ-5",
+  "screeningResult": "EXACT_MATCH",
+  "bestMatch": {
+    "id": "W82",
+    "name": "Virat Kohli",
+    "score": 1
+  },
+  "timestamp": "2026-02-27T08:59:39.682Z"
+}

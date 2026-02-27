@@ -1,0 +1,43 @@
+{
+  "rawName": "Hitman",
+  "normalizedName": "hitman",
+  "allNamesScreened": [
+    {
+      "raw": "Hitman",
+      "normalized": "hitman"
+    },
+    {
+      "raw": "Rohit sharma",
+      "normalized": "rohit sharma"
+    }
+  ],
+  "bestMatch": {
+    "id": "W83",
+    "name": "Rohit Sharma",
+    "score": 1,
+    "matchType": "EXACT_MATCH"
+  },
+  "top3Matches": [
+    {
+      "id": "W83",
+      "name": "Rohit Sharma",
+      "score": 1,
+      "matchedInputName": "Rohit sharma",
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "id": "W920",
+      "name": "Rohit Sharma",
+      "score": 1,
+      "matchedInputName": "Rohit sharma",
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "id": "W448",
+      "name": "Ishant Sharma",
+      "score": 0.69,
+      "matchedInputName": "Rohit sharma",
+      "matchType": "NO_MATCH"
+    }
+  ]
+}
